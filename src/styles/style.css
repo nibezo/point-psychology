@@ -113,12 +113,14 @@ main {
     position: relative;
     border-radius: 0px 0px 7.5rem 7.5rem;
 }
+
 .demo-video video {
     position: relative;
     left: 0;
     top: 0;
     opacity: 1;
 }
+
 .description {
     margin-left: 15rem;
     display: flex;
@@ -162,18 +164,45 @@ main {
     width: 12.9375rem;
     height: 3.7494rem;
 }
+
 .google-play img {
     width: 12.9375rem;
     height: 3.7494rem;
     margin-left: 1rem;
 }
+
 .right-block img {
     height: 44.625rem;
 }
+
 .psychologist-choice {
+    display: flex;
+    align-items: center;
 }
+
+.psychologist-choice img {
+    height: 44.625rem;
+}
+
 .choice {
+    width: 28.75rem;
+    height: 12.9375rem;
+    margin-left: 11.25rem;
 }
+
+.choice h1 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: #093636;
+}
+
+.choice p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5625rem;
+    color: #00325A;
+}
+
 .calling-to-psychologist {
 }
 .inquiries-to-a-psychologist {
