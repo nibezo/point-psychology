@@ -120,14 +120,55 @@ main {
     opacity: 1;
 }
 .description {
+    margin-left: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.description h1 {
+    color: #093636;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.description span {
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: #226699; 
+}
+
+.description p {
+    font-weight: 400;
+    font-size: 1.5625rem;
+    font-family: 'Nunito', sans-serif;
+    color: #00325A;
+    margin: 0;
+}
+
 .left-block {
+    display: flex;
+    flex-direction: column;
 }
-.app-store {
+
+.download {
+    display: flex;
+    margin-top: 2.5rem;
 }
-.google-play {
+
+.app-store img {
+    width: 12.9375rem;
+    height: 3.7494rem;
 }
-.right-block {
+.google-play img {
+    width: 12.9375rem;
+    height: 3.7494rem;
+    margin-left: 1rem;
+}
+.right-block img {
+    height: 44.625rem;
 }
 .psychologist-choice {
 }
