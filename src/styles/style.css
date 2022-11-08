@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sulphur+Point:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
     font-size: 16px;
@@ -49,16 +49,75 @@ main {
 .psychologist-connect {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
 }
+
 .connection {
+    margin-right: 4.375rem; 
 }
+
 .connect {
+    font-size: 2.5625rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #093636;
 }
-.choice-specialist {
+
+.connect span {
+    font-size: 2.5625rem;
+    color: #226699;
 }
+
+.connect-consultation {
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #00325A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.connection-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
 .try {
+    width: 18.75rem;
+    height: 3.1875rem;
+    font-size: 1.125rem;
+    color: #fff;
+    background: #226699;
+    border-radius: 0.3205rem;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    border: none;
 }
+
+.choice-specialist {
+    color: #6DA4CD;
+    width: 18.75rem;
+    height: 3.1875rem;
+    font-size: 1.125rem;
+    margin-top: 1.125rem;
+    font-family: 'Raleway', sans-serif;
+    background: none;
+    border: 2.56388px solid #C6E1F6;
+    border-radius: 5.12775px;
+}
+
 .demo-video {
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px 0px 7.5rem 7.5rem;
+}
+.demo-video video {
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: 1;
 }
 .description {
 }
@@ -131,4 +190,10 @@ main {
 .logo {
 }
 .social {
+}
+
+@media screen and (max-width: 1300px) {
+    * {
+        font-size: 14px;
+    }
 }
