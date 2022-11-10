@@ -6,6 +6,9 @@
     background-color: #F9FCFF;
 }
 
+h1 {
+    color: #093636;
+}
 body {
     margin: 0px;
 }
@@ -204,7 +207,14 @@ main {
 }
 
 .calling-to-psychologist {
+    display: flex;
 }
+
+.calling-to-psychologist h1 {
+    color: #00325A;
+}
+
+
 .inquiries-to-a-psychologist {
 }
 .question {
