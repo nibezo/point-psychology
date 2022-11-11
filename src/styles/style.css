@@ -213,8 +213,22 @@ main {
 .calling-to-psychologist h1 {
     color: #00325A;
 }
+.left-block-call {
+    display: flex;
+    flex-direction: column;
+}
 
-
+.left-block-call h1 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: #093636;
+}
+.left-block-call p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5625rem;
+    color: #00325A;
+}
 .inquiries-to-a-psychologist {
 }
 .question {
