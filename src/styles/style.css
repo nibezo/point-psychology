@@ -125,7 +125,7 @@ main {
 }
 
 .description {
-    margin-left: 15rem;
+    margin-left: 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -208,6 +208,8 @@ main {
 
 .calling-to-psychologist {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .calling-to-psychologist h1 {
@@ -228,7 +230,10 @@ main {
     font-family: 'Nunito', sans-serif;
     font-size: 1.5625rem;
     color: #00325A;
+    width: 482px;
+    height: 103px;
 }
+
 .inquiries-to-a-psychologist {
 }
 .question {
